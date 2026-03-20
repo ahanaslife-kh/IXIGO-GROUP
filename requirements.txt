@@ -1,6 +1,6 @@
-file:///C:/Users/User/PycharmProjects/ixigo_automation/report.html
 selenium
 driver
 pytest
 webdriver-manager
+pytest-html
 pyyaml

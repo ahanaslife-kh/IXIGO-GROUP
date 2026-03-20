@@ -18,5 +18,15 @@
     "from_city": "Singapore",
     "to_city": "Dubai",
     "travel_class": "Business"
+  },
+  {
+    "from_city": "Delhi",
+    "to_city": "Jaipur",
+    "travel_class": "Economy"
+  },
+  {
+    "from_city": "Bangalore",
+    "to_city": "Chennai",
+    "travel_class": "Economy"
   }
 ]
