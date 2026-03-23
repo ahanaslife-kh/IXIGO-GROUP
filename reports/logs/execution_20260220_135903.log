@@ -1,0 +1,23 @@
+2026-02-20 13:59:03,511 | INFO | TrainResultPage | Selecting result date: Sat, 28
+2026-02-20 13:59:03,512 | INFO | TrainResultPage | Getting elements from ('xpath', "//div[@aria-label='Available dates']/button")
+2026-02-20 13:59:08,804 | INFO | TrainResultPage | Result date found: Sat, 28
+Few Seats
+2026-02-20 13:59:10,024 | INFO | TrainResultPage | Applying filters
+2026-02-20 13:59:26,222 | INFO | TrainResultPage | Clicking Best Available filter
+2026-02-20 13:59:26,223 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='Best Available']")
+2026-02-20 13:59:28,395 | INFO | TrainResultPage | Clicking AC Only filter
+2026-02-20 13:59:28,462 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='AC Only']")
+2026-02-20 13:59:30,629 | INFO | TrainResultPage | Scrolling to train results section
+2026-02-20 13:59:30,630 | INFO | TrainResultPage | Scrolling ('id', 'train-card-list')
+2026-02-20 13:59:30,630 | INFO | TrainResultPage | Scrolling until element visible: ('id', 'train-card-list')
+2026-02-20 13:59:31,693 | INFO | TrainResultPage | Selecting train: Netaji
+2026-02-20 13:59:31,693 | INFO | TrainResultPage | Getting elements from ('css selector', '#train-card-list>div')
+2026-02-20 13:59:32,832 | INFO | TrainResultPage | Selecting coach: 3A
+2026-02-20 13:59:32,833 | INFO | TrainResultPage | Getting elements from ('css selector', '#tg-available-row>div')
+2026-02-20 13:59:34,030 | INFO | TrainResultPage | Selecting quota: General
+2026-02-20 13:59:34,031 | INFO | TrainResultPage | Getting elements from ('css selector', "button[role='tab']")
+2026-02-20 13:59:34,126 | INFO | TrainResultPage | Quota found: General
+2026-02-20 13:59:35,199 | INFO | TrainResultPage | Searching quota date containing: 28
+2026-02-20 13:59:35,200 | INFO | TrainResultPage | Getting elements from ('css selector', "div[role='tabpanel']>div")
+2026-02-20 13:59:35,325 | INFO | TrainResultPage | Clicking Book button
+2026-02-20 13:59:35,325 | INFO | TrainResultPage | Clicking element: ('xpath', 'tag name', 'button')

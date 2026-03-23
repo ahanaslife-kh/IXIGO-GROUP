@@ -1,0 +1,6 @@
+2026-02-20 13:33:36,489 | INFO | TrainRunningStatusPage | Redirecting back to Trains module from Running Status page
+2026-02-20 13:33:36,490 | INFO | TrainRunningStatusPage | Clicking element: ('css selector', "div.mainContainer>div a[href='/trains']")
+2026-02-20 13:33:40,224 | INFO | TrainRunningStatusPage | Navigating to Running Status section
+2026-02-20 13:33:40,225 | INFO | TrainRunningStatusPage | Getting elements from ('css selector', "div[data-testid='submenu-container']>div>div>div")
+2026-02-20 13:33:40,550 | INFO | TrainRunningStatusPage | Entering train number: 12301
+2026-02-20 13:33:40,566 | INFO | TrainRunningStatusPage | Clicking element: ('xpath', "//input[@type='search']")

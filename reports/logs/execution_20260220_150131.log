@@ -1,0 +1,4 @@
+2026-02-20 15:01:31,898 | INFO | TrainHomePage | Opening train module: ('css selector', "div.mainContainer>div>div:nth-child(2) a[href='/trains']")
+2026-02-20 15:01:31,899 | INFO | TrainHomePage | Clicking element: ('css selector', "div.mainContainer>div>div:nth-child(2) a[href='/trains']")
+2026-02-20 15:01:36,697 | INFO | TrainHomePage | Select origin: del
+2026-02-20 15:01:36,699 | INFO | TrainHomePage | Clicking element: ('css selector', "div.mainContainer>div>div:nth-child(2) div[data-testid='search-form-origin']")

@@ -1,0 +1,21 @@
+2026-02-20 13:28:50,929 | INFO | TrainResultPage | Selecting result date: Sat, 28
+2026-02-20 13:28:50,930 | INFO | TrainResultPage | Getting elements from ('xpath', "//div[@aria-label='Available dates']/button")
+2026-02-20 13:28:53,240 | INFO | TrainResultPage | Result date found: Sat, 28
+Few Seats
+2026-02-20 13:28:54,393 | INFO | TrainResultPage | Applying filters
+2026-02-20 13:29:10,813 | INFO | TrainResultPage | Clicking Best Available filter
+2026-02-20 13:29:10,814 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='Best Available']")
+2026-02-20 13:29:13,276 | INFO | TrainResultPage | Clicking AC Only filter
+2026-02-20 13:29:13,282 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='AC Only']")
+2026-02-20 13:29:15,659 | INFO | TrainResultPage | Scrolling to train results section
+2026-02-20 13:29:15,661 | INFO | TrainResultPage | Scrolling ('id', 'train-card-list')
+2026-02-20 13:29:15,661 | INFO | TrainResultPage | Scrolling until element visible: ('id', 'train-card-list')
+2026-02-20 13:29:16,745 | INFO | TrainResultPage | Selecting train: Poorva
+2026-02-20 13:29:16,746 | INFO | TrainResultPage | Getting elements from ('css selector', '#train-card-list>div')
+2026-02-20 13:29:18,348 | INFO | TrainResultPage | Selecting coach: 3A
+2026-02-20 13:29:18,349 | INFO | TrainResultPage | Getting elements from ('css selector', '#tg-available-row>div')
+2026-02-20 13:29:19,821 | INFO | TrainResultPage | Selecting quota: General
+2026-02-20 13:29:19,821 | INFO | TrainResultPage | Getting elements from ('css selector', "button[role='tab']")
+2026-02-20 13:29:19,881 | INFO | TrainResultPage | Quota found: General
+2026-02-20 13:29:20,963 | INFO | TrainResultPage | Selecting quota date: 28
+2026-02-20 13:29:20,964 | INFO | TrainResultPage | Getting elements from ('css selector', "div[role='tabpanel']>div")

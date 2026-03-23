@@ -1,0 +1,17 @@
+2026-02-20 16:36:39,144 | INFO | TrainHomePage | Opening train module: ('css selector', "div.mainContainer>div>div:nth-child(2) a[href='/trains']")
+2026-02-20 16:36:39,146 | INFO | TrainHomePage | Clicking element: ('css selector', "div.mainContainer>div>div:nth-child(2) a[href='/trains']")
+2026-02-20 16:36:44,045 | INFO | TrainHomePage | Select origin: del
+2026-02-20 16:36:44,046 | INFO | TrainHomePage | Clicking element: ('css selector', "div.mainContainer>div>div:nth-child(2) div[data-testid='search-form-origin']")
+2026-02-20 16:36:46,414 | INFO | TrainHomePage | Entering text 'del' into ('css selector', "input[placeholder='Enter Origin']")
+2026-02-20 16:36:47,756 | INFO | TrainHomePage | Select city: New Delhi
+2026-02-20 16:36:47,757 | INFO | TrainHomePage | Getting elements from ('css selector', "div[role='listitem']")
+2026-02-20 16:36:48,247 | INFO | TrainHomePage | Select destination: kol
+2026-02-20 16:36:48,247 | INFO | TrainHomePage | Clicking element: ('css selector', "div.mainContainer>div>div:nth-child(2) div[data-testid='search-form-destination']")
+2026-02-20 16:36:56,646 | INFO | TrainHomePage | Entering text 'kol' into ('css selector', "input[placeholder='Enter Destination']")
+2026-02-20 16:36:57,886 | INFO | TrainHomePage | Select city: Kolkata
+2026-02-20 16:36:57,886 | INFO | TrainHomePage | Getting elements from ('css selector', "div[role='listitem']")
+2026-02-20 16:36:58,363 | INFO | TrainHomePage | Select quick dates
+2026-02-20 16:36:58,365 | INFO | TrainHomePage | Clicking element: ('css selector', "div.mainContainer>div>div:nth-child(2) div[data-testid='day-after-tomorrow']")
+2026-02-20 16:37:00,815 | INFO | TrainHomePage | Clicking element: ('css selector', "div.mainContainer>div>div:nth-child(2) div[data-testid='tomorrow']")
+2026-02-20 16:37:03,108 | INFO | TrainHomePage | Click search button
+2026-02-20 16:37:03,109 | INFO | TrainHomePage | Clicking element: ('css selector', "div.mainContainer>div>div:nth-child(2) button[data-testid='book-train-tickets']")

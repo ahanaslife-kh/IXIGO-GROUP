@@ -1,0 +1,23 @@
+2026-02-20 13:50:54,507 | INFO | TrainResultPage | Selecting result date: Sat, 28
+2026-02-20 13:50:54,507 | INFO | TrainResultPage | Getting elements from ('xpath', "//div[@aria-label='Available dates']/button")
+2026-02-20 13:50:56,610 | INFO | TrainResultPage | Result date found: Sat, 28
+Few Seats
+2026-02-20 13:50:57,851 | INFO | TrainResultPage | Applying filters
+2026-02-20 13:51:14,084 | INFO | TrainResultPage | Clicking Best Available filter
+2026-02-20 13:51:14,085 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='Best Available']")
+2026-02-20 13:51:16,525 | INFO | TrainResultPage | Clicking AC Only filter
+2026-02-20 13:51:16,541 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='AC Only']")
+2026-02-20 13:51:18,922 | INFO | TrainResultPage | Scrolling to train results section
+2026-02-20 13:51:18,923 | INFO | TrainResultPage | Scrolling ('id', 'train-card-list')
+2026-02-20 13:51:18,924 | INFO | TrainResultPage | Scrolling until element visible: ('id', 'train-card-list')
+2026-02-20 13:51:20,009 | INFO | TrainResultPage | Selecting train: Netaji
+2026-02-20 13:51:20,010 | INFO | TrainResultPage | Getting elements from ('css selector', '#train-card-list>div')
+2026-02-20 13:51:21,381 | INFO | TrainResultPage | Selecting coach: 3A
+2026-02-20 13:51:21,382 | INFO | TrainResultPage | Getting elements from ('css selector', '#tg-available-row>div')
+2026-02-20 13:51:23,003 | INFO | TrainResultPage | Selecting quota: General
+2026-02-20 13:51:23,005 | INFO | TrainResultPage | Getting elements from ('css selector', "button[role='tab']")
+2026-02-20 13:51:23,127 | INFO | TrainResultPage | Quota found: General
+2026-02-20 13:51:24,373 | INFO | TrainResultPage | Selecting quota date: 28
+2026-02-20 13:51:24,374 | INFO | TrainResultPage | Getting elements from ('css selector', "div[role='tabpanel']>div")
+2026-02-20 13:51:24,601 | INFO | TrainResultPage | Clicking Book button
+2026-02-20 13:51:24,603 | INFO | TrainResultPage | Clicking element: ('xpath', 'tag name', 'button')

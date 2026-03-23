@@ -1,0 +1,25 @@
+2026-02-20 14:22:49,917 | INFO | TrainResultPage | Selecting result date: Sat, 28
+2026-02-20 14:22:49,918 | INFO | TrainResultPage | Getting elements from ('xpath', "//div[@aria-label='Available dates']/button")
+2026-02-20 14:22:51,916 | INFO | TrainResultPage | Result date found: Sat, 28
+Few Seats
+2026-02-20 14:22:53,057 | INFO | TrainResultPage | Applying filters
+2026-02-20 14:23:09,231 | INFO | TrainResultPage | Clicking Best Available filter
+2026-02-20 14:23:09,231 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='Best Available']")
+2026-02-20 14:23:11,404 | INFO | TrainResultPage | Clicking AC Only filter
+2026-02-20 14:23:11,427 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='AC Only']")
+2026-02-20 14:23:13,589 | INFO | TrainResultPage | Scrolling to train results section
+2026-02-20 14:23:13,590 | INFO | TrainResultPage | Scrolling ('id', 'train-card-list')
+2026-02-20 14:23:13,590 | INFO | TrainResultPage | Scrolling until element visible: ('id', 'train-card-list')
+2026-02-20 14:23:14,651 | INFO | TrainResultPage | Selecting train: Netaji
+2026-02-20 14:23:14,651 | INFO | TrainResultPage | Getting elements from ('css selector', '#train-card-list>div')
+2026-02-20 14:23:15,782 | INFO | TrainResultPage | Selecting coach: 3A
+2026-02-20 14:23:15,783 | INFO | TrainResultPage | Getting elements from ('css selector', '#tg-available-row>div')
+2026-02-20 14:23:16,994 | INFO | TrainResultPage | Selecting quota: General
+2026-02-20 14:23:16,994 | INFO | TrainResultPage | Getting elements from ('css selector', "button[role='tab']")
+2026-02-20 14:23:17,068 | INFO | TrainResultPage | Quota found: General
+2026-02-20 14:23:18,142 | INFO | TrainResultPage | Searching quota date containing: 28
+2026-02-20 14:23:18,144 | INFO | TrainResultPage | Getting elements from ('css selector', "div[role='tabpanel']>div")
+2026-02-20 14:23:18,255 | INFO | TrainResultPage | Clicking Book button
+2026-02-20 14:23:18,255 | INFO | TrainResultPage | Clicking element: ('tag name', 'button')
+2026-02-20 14:23:20,578 | INFO | TrainResultPage | Closing login page
+2026-02-20 14:23:20,579 | INFO | TrainResultPage | Clicking element: ('id', "div[role='dialog']>div button[data-testid='CloseIcon']")

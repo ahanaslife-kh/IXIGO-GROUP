@@ -1,0 +1,11 @@
+2026-02-20 13:38:30,894 | INFO | TrainRunningStatusPage | Redirecting back to Trains module from Running Status page
+2026-02-20 13:38:30,895 | INFO | TrainRunningStatusPage | Clicking element: ('css selector', "div.mainContainer>div a[href='/trains']")
+2026-02-20 13:38:34,712 | INFO | TrainRunningStatusPage | Navigating to Running Status section
+2026-02-20 13:38:34,713 | INFO | TrainRunningStatusPage | Getting elements from ('css selector', "div[data-testid='submenu-container']>div>div>div")
+2026-02-20 13:38:34,899 | INFO | TrainRunningStatusPage | Entering train number: 12301
+2026-02-20 13:38:34,905 | INFO | TrainRunningStatusPage | Clicking element: ('xpath', "//input[@type='search']")
+2026-02-20 13:38:37,176 | INFO | TrainRunningStatusPage | Entering text '12301' into ('xpath', "//input[@type='search']")
+2026-02-20 13:38:38,613 | INFO | TrainRunningStatusPage | Selecting train suggestion from autocomplete
+2026-02-20 13:38:38,613 | INFO | TrainRunningStatusPage | Clicking element: ('css selector', 'div.seoAutocompleterDesktop_suggestionsBox__puLgh')
+2026-02-20 13:38:40,808 | INFO | TrainRunningStatusPage | Clicking Check Live Status button
+2026-02-20 13:38:40,808 | INFO | TrainRunningStatusPage | Clicking element: ('xpath', "//button[text()='Check Live Status']")

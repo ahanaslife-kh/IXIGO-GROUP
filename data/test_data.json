@@ -28,5 +28,23 @@
     "from_city": "Bangalore",
     "to_city": "Chennai",
     "travel_class": "Economy"
+  },
+  {
+    "from_city": "New Delhi",
+    "to_city": "Kolkata",
+    "train_name": "Netaji",
+    "coach": "3A",
+    "category": "General",
+    "pnr": "1234567890",
+    "train_number": "12312"
+  },
+  {
+    "from_city": "Delhi",
+    "to_city": "Mumbai",
+    "train_name": "Rajdhani",
+    "coach": "2A",
+    "category": "General",
+    "pnr": "9876543210",
+    "train_number": "12951"
   }
 ]

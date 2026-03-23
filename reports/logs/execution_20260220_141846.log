@@ -1,0 +1,23 @@
+2026-02-20 14:18:46,573 | INFO | TrainResultPage | Selecting result date: Sat, 28
+2026-02-20 14:18:46,573 | INFO | TrainResultPage | Getting elements from ('xpath', "//div[@aria-label='Available dates']/button")
+2026-02-20 14:18:48,565 | INFO | TrainResultPage | Result date found: Sat, 28
+Few Seats
+2026-02-20 14:18:49,781 | INFO | TrainResultPage | Applying filters
+2026-02-20 14:19:05,985 | INFO | TrainResultPage | Clicking Best Available filter
+2026-02-20 14:19:05,986 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='Best Available']")
+2026-02-20 14:19:08,165 | INFO | TrainResultPage | Clicking AC Only filter
+2026-02-20 14:19:08,185 | INFO | TrainResultPage | Clicking element: ('xpath', "//p[text()='AC Only']")
+2026-02-20 14:19:10,358 | INFO | TrainResultPage | Scrolling to train results section
+2026-02-20 14:19:10,359 | INFO | TrainResultPage | Scrolling ('id', 'train-card-list')
+2026-02-20 14:19:10,360 | INFO | TrainResultPage | Scrolling until element visible: ('id', 'train-card-list')
+2026-02-20 14:19:11,430 | INFO | TrainResultPage | Selecting train: Netaji
+2026-02-20 14:19:11,431 | INFO | TrainResultPage | Getting elements from ('css selector', '#train-card-list>div')
+2026-02-20 14:19:12,569 | INFO | TrainResultPage | Selecting coach: 3A
+2026-02-20 14:19:12,569 | INFO | TrainResultPage | Getting elements from ('css selector', '#tg-available-row>div')
+2026-02-20 14:19:13,779 | INFO | TrainResultPage | Selecting quota: General
+2026-02-20 14:19:13,779 | INFO | TrainResultPage | Getting elements from ('css selector', "button[role='tab']")
+2026-02-20 14:19:13,850 | INFO | TrainResultPage | Quota found: General
+2026-02-20 14:19:14,927 | INFO | TrainResultPage | Searching quota date containing: 28
+2026-02-20 14:19:14,927 | INFO | TrainResultPage | Getting elements from ('css selector', "div[role='tabpanel']>div")
+2026-02-20 14:19:15,064 | INFO | TrainResultPage | Clicking Book button
+2026-02-20 14:19:15,065 | INFO | TrainResultPage | Clicking element: ('tag name', 'button')

@@ -1,3 +1,10 @@
-base_url: "https://www.ixigo.com/buses"
-browser: "chrome"
-wait: 15
+browser: chrome
+
+base_urls:
+  flights: "https://www.ixigo.com/"
+  buses: "https://www.ixigo.com/buses"
+  hotels: "https://www.ixigo.com/hotels"
+
+wait:
+  implicit: 5
+  explicit: 15

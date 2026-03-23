@@ -1,0 +1,2 @@
+2026-02-20 14:04:41,409 | INFO | TrainPNRPage | Redirecting back to Trains module
+2026-02-20 14:04:41,409 | INFO | TrainPNRPage | Clicking element: ('css selector', "div.mainContainer>div a[href='/trains']")
