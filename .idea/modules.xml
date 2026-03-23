@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ixigo-automation.iml" filepath="$PROJECT_DIR$/.idea/ixigo-automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ixigo-hotels-automation.iml" filepath="$PROJECT_DIR$/.idea/ixigo-hotels-automation.iml" />
     </modules>
   </component>
 </project>

@@ -11,10 +11,15 @@ class DriverFactory:
         options = Options()
         options.add_argument("--start-maximized")
 
+        service = Service(ChromeDriverManager().install())
+
         driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()),
+            service=service,
             options=options
         )
+
+        # Fallback maximize (in case option fails)
+        driver.maximize_window()
 
         # Implicit wait
         driver.implicitly_wait(10)

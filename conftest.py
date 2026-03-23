@@ -1,17 +1,25 @@
-
 import os
 from datetime import datetime
 import pytest
-from utils.driver_factory import  DriverFactory
 import yaml
+
+from utils.driver_factory import DriverFactory
+from utils.screenshot_utils import take_screenshot
+
+
+# ---------- CONFIG LOADER ----------
 
 def load_config():
     with open("config.yaml", "r") as file:
         return yaml.safe_load(file)
 
+
 @pytest.fixture(scope="session")
 def config():
     return load_config()
+
+
+# ---------- DRIVER FIXTURE ----------
 
 @pytest.fixture(scope="function")
 def driver():
@@ -19,20 +27,26 @@ def driver():
     yield driver
     driver.quit()
 
+
+# ---------- PYTEST HOOK FOR SCREENSHOT ----------
+
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
     rep = outcome.get_result()
+
+    # Attach report to item (from server version)
+    setattr(item, "rep_" + rep.when, rep)
+
+    # Take screenshot on failure
     if rep.when == "call" and rep.failed:
         driver = item.funcargs.get("driver", None)
+
         if driver:
             try:
-                if not os.path.exists("screenshots"):
-                    os.makedirs("screenshots")
-                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                file_name = f"{item.name}_{timestamp}.png"
-                file_path = os.path.join("screenshots", file_name)
-                driver.save_screenshot(file_path)
-                print(f"\n Screenshot saved: {file_path}")
+                # Use utility function (clean approach)
+                file_path = take_screenshot(driver, item.name)
+                print(f"\n📸 Screenshot saved: {file_path}")
+
             except Exception as e:
-                print(f"\n Screenshot capture failed: {e}")
+                print(f"\n❌ Screenshot capture failed: {e}")

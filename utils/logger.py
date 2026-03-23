@@ -12,11 +12,11 @@ def get_logger():
     # Prevent duplicate handlers
     if not logger.handlers:
         formatter = logging.Formatter(
-            "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+            "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
         )
 
-        # File handler
-        file_handler = logging.FileHandler("logs/test.log")
+        # File handler (append mode)
+        file_handler = logging.FileHandler("logs/test.log", mode="a")
         file_handler.setFormatter(formatter)
 
         # Console handler
